@@ -1,0 +1,121 @@
+body {
+    font-family: arial, sans-serif;
+    font-size: small;
+    color: #222;
+  }
+  
+  #googlemic {
+      background: url(//www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png) 0 0 no-repeat;
+      height: 24px;
+      width: 24px;
+      background-size: 24px;
+      position: relative;
+      left: 440px;
+      top: 10px;
+  }
+  
+  .search-form {
+      background: #fff;
+      display: flex;
+      border-radius: 8px;
+      border: 1px solid #dfe1e5;
+      box-shadow: none;
+      border-radius: 24px;
+      z-index: 3;
+      height: 44px;
+      margin: 0 auto;
+      width: 482px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    display: inline;
+    padding: 6px;
+    
+  }
+  
+  #right {
+    float: right;
+  }
+  
+  .footer {
+    font-size: small;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    line-height: 40px;
+    position: absolute;
+    width: 100%;
+    min-width: 980px;
+    bottom: 0;
+  }
+  
+  #search-form {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 44px;
+    margin: 0 auto;
+    z-index: 3;
+    width: 482px;
+  }
+  
+  #mic {
+    width: 24px;
+    height: 24px;
+    padding-top: 10px;
+    padding-left: 440px;
+  }
+  
+  .header {
+    line-height: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+    min-width: 165px;
+    align-items: center;
+    
+  }
+  
+  #login-button {
+    color: #fff;
+    background: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 2px;
+    font-weight: bold;
+    line-height: 28px;
+    padding: 0 12px;
+    display: inline-block;
+  }
+  
+  #apps {
+    background-position: -132px -38px;
+    background-image: url(https://ssl.gstatic.com/gb/images/i2_2ec824b0.png);
+    background-size: 528px 68px;
+    opacity: .55;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline: none;
+  }
+  
+  input {
+    height: 36px;
+    line-height: 27px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 11px 4px;
+    min-width: 54px;
+    text-align: center;
+    padding: 0 16px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+  }
